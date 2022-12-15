@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "character": "Harry James Potter",
+    "nickname": "Harry",
+    "hogwartsStudent": true,
+    "hogwartsHouse": "Gryffindor",
+    "interpretedBy": "Daniel Radcliffe",
+    "child": [
+    "James Sirius Potter",
+    "Albus Severus Potter",
+    "Lily Luna Potter"
+    ],
+    "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/harry_potter.png"
+    },
+    {
+    "id": 2,
+    "character": "Hermione Jean Granger",
+    "nickname": "Hermione",
+    "hogwartsStudent": true,
+    "hogwartsHouse": "Gryffindor",
+    "interpretedBy": "Emma Watson",
+    "child": [
+    "Rose Granger-Weasley",
+    "Hugo Granger-Weasley"
+    ],
+    "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/hermione_granger.png"
+    },
+    {
+    "id": 3,
+    "character": "Ron Weasley",
+    "nickname": "Ron",
+    "hogwartsStudent": true,
+    "hogwartsHouse": "Gryffindor",
+    "interpretedBy": "Rupert Grint",
+    "child": [
+    "Rose Granger-Weasley",
+    "Hugo Granger-Weasley"
+    ],
+    "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/ron_weasley.png"
+    }
+  ]

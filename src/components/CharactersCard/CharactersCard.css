@@ -1,0 +1,93 @@
+@font-face {font-family: "Harry Potter";
+  src: url("//db.onlinewebfonts.com/t/0421d4186d6efbfc5331fe180895e780.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/0421d4186d6efbfc5331fe180895e780.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/0421d4186d6efbfc5331fe180895e780.svg#Harry Potter") format("svg");
+}
+
+.name {
+  color:#ab7f7f;
+  font-size: 1.9em;
+  text-align: center;
+  font-family: Harry Potter, Arial;
+  margin-top: 14em;  
+  margin-left: -6em;
+  position: relative;
+}
+
+.name::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  border-radius: 8em;
+}
+
+.name:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.name::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background:#6c4913;
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+
+.characters-card {
+  width: 20em;
+  height: 25em; 
+  margin-bottom: 4em;
+}
+
+.character-poster {
+  height: 20em;
+  width: 15em;
+  border:0.3em solid #432d2d; 
+  margin-top: 40px;
+  margin-left: 30px;
+  border-radius: 25px;
+  animation: wiggle 2s linear
+}
+
+@keyframes wiggle {
+  
+  0%,
+  15% {
+    transform: rotateZ(0);
+  }
+
+   30% {
+    transform: rotateZ(-15deg);
+  }
+
+  50% {
+    transform: rotateZ(10deg);
+  }
+
+  60% {
+    transform: rotateZ(-10deg);
+  }
+
+  70% {
+    transform: rotateZ(6deg);
+  }
+
+  35% {
+    transform: rotateZ(-4deg);
+  } 
+
+  40%,
+  180% {
+    transform: rotateZ(0);
+  }
+}
+

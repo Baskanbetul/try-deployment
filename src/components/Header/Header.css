@@ -1,0 +1,54 @@
+@font-face {font-family: "Harry Potter";
+  src: url("//db.onlinewebfonts.com/t/0421d4186d6efbfc5331fe180895e780.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/0421d4186d6efbfc5331fe180895e780.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/0421d4186d6efbfc5331fe180895e780.svg#Harry Potter") format("svg");
+}
+
+.hogwarts {
+  text-align: center;
+  color: rgb(182, 163, 138);
+  display: flex;
+  justify-content: space-around;
+  margin-left: 13em;
+  margin-top:2em
+}
+
+.harry-gif {
+  height: 14em;
+  width: 14em;
+  border-radius: 40em;
+  margin-left: 5em;
+}
+
+h1 {
+  color: #5d5d5d;
+  font-family: Harry Potter, Arial;
+  font-size:4em;
+  transition:all 0.1s ;
+  margin:0;
+  margin-top: 1em;
+}
+
+h1:focus, h1:hover {
+  color: rgb(131, 85, 17);
+  text-shadow:
+  2px 3px 0 #740001,
+  4px 4px 0 #1a472a,  
+  6px 5px 0 #0e1a40,
+  8px  6px 0 #ecb939,
+  10px 7px 0 black;
+}
+
+@keyframes my-animation {
+  from {
+    background-color: #ecb939;
+    width: 90px;
+    top: 40px;
+  }
+  to {
+    background-color: #946b2d;
+    width: 60px;
+    top: 70px;
+  }
+}
+ 

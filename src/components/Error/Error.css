@@ -1,0 +1,12 @@
+@font-face {font-family: "Harry Potter";
+  src: url("//db.onlinewebfonts.com/t/0421d4186d6efbfc5331fe180895e780.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/0421d4186d6efbfc5331fe180895e780.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/0421d4186d6efbfc5331fe180895e780.svg#Harry Potter") format("svg");
+}
+
+h2, .error-messaging {
+  color:#b9a493;
+  font-size: 1.9em;
+  text-align:center;
+  font-family: Harry Potter, Arial;
+}

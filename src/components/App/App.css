@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background: url('https://w0.peakpx.com/wallpaper/821/266/HD-wallpaper-hogwarts-castle-harry-potter-and-the-chamber-of-secrets.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+}
+
+.hogwards-flag {
+  height: 16em;
+  width: 30em;
+  border-radius: 7em;
+  margin-bottom: 10em;
+}
+
+main {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
